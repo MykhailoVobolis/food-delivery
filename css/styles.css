@@ -2,4 +2,98 @@ body{
     font-family: Roboto, sans-serif;
     color: #2c2c2c;
     background-color: #fefefe;
+    width: 1280px;
 }
+
+a{
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+img{
+    display: block;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* Header */
+
+.main-header-container{
+    display: flex;
+    height: 72px;
+    box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
+}
+
+/* Navigation-menu */
+
+.navigation-menu{
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+    display: flex;
+    gap: 28px;
+}
+
+.list-navigation:first-child a{
+    font-family: Roboto;
+    text-decoration: underline;
+    color: #bbf330;
+    font-weight: 700;
+}
+
+
+.page-header .container{
+    width: 1120px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 144px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.main-button{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: block;
+    min-width: 98px;
+    height: 32px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background: #bbf330;
+    border: none;
+}
+
+/* Logo */
+.logo{
+margin-right: 735px;
+padding-left: 16px;
+padding-top: 10px;
+}
+

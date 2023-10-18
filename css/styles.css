@@ -38,14 +38,6 @@ button{
     cursor: pointer;
 }
 
-/* container {
-    width: 1168px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-} */
-
 /* Header */
 
 .page-header{
@@ -101,16 +93,29 @@ box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
 
 /* Hero-section */
 
+.hero{
+    /* background-color: tomato; */
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 95px;
+    padding-left: 16px;
+    gap: 160px;
+}
+
 h1{
         font-size: 48px;
         font-weight: 700;
         line-height: 1.2;
+        width: 502.4px;
+        margin-top: 119px;
 }
 
 .hero-text{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    width: 511px;
+    margin-top: 28px;
 }
 
 .hero-button{
@@ -123,6 +128,7 @@ h1{
         border-radius: 30px;
         background: #bbf330;
         border: none;
+        margin-top: 40px;
 }
 
 /* Our-offers */
@@ -132,18 +138,18 @@ h1{
     gap: 160px;
     background: #ffe550;
     padding-top: 113px;
-    padding-bottom: 226px;
+    padding-bottom: 148px;
     padding-left: 100px;
 }
 
 
 
 .our-offers-image{
-    /* background-color: #fefefe; */
+
     max-width: 502px;
-        flex-shrink: 0;
+    flex-shrink: 0;
     border-radius: 502px;
-        background: #fefefe;;
+    background: #fefefe;;
 }
 
 .our-offers-title{
@@ -201,16 +207,31 @@ width: calc((100% - 67px) / 2);
 
 /* Our-favorites */
 
+.our-favorites{
+    padding-top: 120px;
+    padding-left: 72px;
+    padding-bottom: 142px;
+}
+
 .our-favorites-title{
         text-align: center;
         font-size: 42px;
         font-weight: 700;
+        margin-bottom: 20px;
 }
 
 .our-favorites-text{
         text-align: center;
         font-size: 16px;
         font-weight: 400;
+}
+
+.our-favorites-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 111px;
+   row-gap: 114px;
+   padding-top: 81px;
 }
 
 /* Reviews */

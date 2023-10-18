@@ -31,6 +31,7 @@ ol{
 
 img{
     display: block;
+    max-width: 100%;
 }
 
 button{
@@ -48,7 +49,6 @@ button{
 /* Navigation-menu */
 
 .navigation-menu{
-        font-family: Roboto;
         font-size: 14px;
         font-weight: 400;
     display: flex;
@@ -56,7 +56,6 @@ button{
 }
 
 .list-navigation:first-child a{
-    font-family: Roboto;
     text-decoration: underline;
     color: #bbf330;
     font-weight: 700;
@@ -91,9 +90,207 @@ button{
 }
 
 /* Logo */
+
 .logo{
 margin-right: 735px;
 padding-left: 16px;
 padding-top: 10px;
 }
 
+/* Main-content */
+
+/* Hero-section */
+
+h1{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.2;
+}
+
+.hero-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.hero-button{
+    font-size: 13px;
+        font-weight: 500;
+        line-height: 1.5;
+        display: block;
+        min-width: 98px;
+        height: 32px;
+        border-radius: 30px;
+        background: #bbf330;
+        border: none;
+}
+
+/* Our-offers */
+
+.our-offers{
+    display: flex;
+    gap: 160px;
+    background: #ffe550;
+    padding-top: 113px;
+    padding-bottom: 226px;
+    padding-left: 100px;
+}
+
+
+
+.our-offers-image{
+    /* background-color: #fefefe; */
+    max-width: 502px;
+        flex-shrink: 0;
+    border-radius: 502px;
+        background: #fefefe;;
+}
+
+.our-offers-title{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 83px;
+
+}
+
+.our-offers-text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-top: 20px;
+        max-width: 500px;
+}
+
+.advantages {
+    display: flex;
+    gap: 67px;
+    padding-top: 96px;
+    margin-right: 51px;
+}
+
+.our-offers-list-title{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.4;
+}
+
+.our-offers-list-title-text{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-top: 16px;
+}
+
+.advantages-list{
+width: calc((100% - 67px) / 2);
+}
+
+.our-offers-button{
+    font-size: 13px;
+        font-weight: 500;
+        line-height: 1.5;
+        display: block;
+        min-width: 106px;
+        height: 40px;
+        border-radius: 30px;
+        border: 2px solid #7eb101;
+        background: #ffffff;
+        margin-top: 32px;
+}
+
+/* Our-favorites */
+
+.our-favorites-title{
+        text-align: center;
+        font-size: 42px;
+        font-weight: 700;
+}
+
+.our-favorites-text{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+}
+
+/* Reviews */
+
+.reviews-title{
+        font-size: 42px;
+        font-weight: 700;
+}
+
+.reviews-text{
+            font-size: 16px;
+            font-weight: 400;
+}
+
+.reviews-list-text{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.name-author-review{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.5;
+}
+
+.author-description{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+}
+
+/* Subscription */
+
+.subscription-title{
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 1.2;
+}
+
+.subscription-text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+}
+
+/* Footer */
+
+/* Logo-footer */
+
+/* Navigation-menu-footer */
+
+.navigation-menu-footer{
+        font-size: 14px;
+        font-weight: 400;
+}
+
+.title-subscribe-form{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.5;
+}
+
+.privacy-policy-warning{
+        font-size: 12px;
+        font-weight: 400;
+}
+
+.link-privacy-policy{
+    color:#7eb101;
+    text-decoration-line: underline;
+}
+
+.link-developer{
+    color: #7eb101;
+        font-size: 12px;
+        font-weight: 400;
+        text-decoration-line: underline;
+}
+
+.copyright{
+        font-size: 12px;
+        font-weight: 400;
+}

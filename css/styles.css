@@ -38,12 +38,27 @@ button{
     cursor: pointer;
 }
 
+/* container {
+    width: 1168px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+} */
+
 /* Header */
+
+.page-header{
+height: 72px;
+box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
+}
 
 .main-header-container{
     display: flex;
-    height: 72px;
-    box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
+        padding-left: 16px;
+        padding-right: 16px;
+        justify-content: space-between;
+        align-items: center;
 }
 
 /* Navigation-menu */
@@ -61,13 +76,6 @@ button{
     font-weight: 700;
 }
 
-
-.page-header .container{
-    width: 1120px;
-    margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 144px;
-}
 
 .navigation{
     display: flex;
@@ -87,14 +95,6 @@ button{
     border-radius: 30px;
     background: #bbf330;
     border: none;
-}
-
-/* Logo */
-
-.logo{
-margin-right: 735px;
-padding-left: 16px;
-padding-top: 10px;
 }
 
 /* Main-content */

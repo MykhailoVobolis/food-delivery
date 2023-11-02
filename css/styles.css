@@ -2,9 +2,13 @@ body{
     font-family: Roboto, sans-serif;
     color: #2c2c2c;
     background-color: #fefefe;
+}
+
+.container{
     width: 1280px;
-    /* display: flex;
-    flex-direction: column; */
+    padding: 0 16px;
+    margin: 0 auto;
+    background-color: aqua;
 }
 
 a{
@@ -43,23 +47,22 @@ button{
 /* Header */
 
 .page-header{
-height: 72px;
 box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
 }
 
-.main-header-container{
+.header-container{
     display: flex;
-        padding-left: 16px;
-        padding-right: 16px;
-        justify-content: space-between;
-        align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Navigation-menu */
 
 .navigation-menu{
-        font-size: 14px;
-        font-weight: 400;
+    font-size: 14px;
+    font-weight: 400;
     display: flex;
     gap: 28px;
 }

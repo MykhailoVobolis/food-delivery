@@ -87,9 +87,14 @@ box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
     height: 32px;
     margin-left: 30px;
     border-radius: 30px;
-    background: #bbf330;
+    background-color: #bbf330;
     border: none;
 }
+
+.main-button:hover, .hero-button:hover{
+    background-color: #ffe450;
+}
+
 
 /* Main-content */
 
@@ -143,6 +148,10 @@ h1{
     border: 26px solid #ffe550;
     width: 580px;
     height: 580px;
+}
+
+.hero-image:hover{
+    border: 26px solid #bbf330;
 }
 
 /* Our-offers */
@@ -243,9 +252,15 @@ padding-top: 29px;
         height: 40px;
         border-radius: 30px;
         border: 2px solid #7eb101;
-        background: #ffffff;
+        background-color: #ffffff;
         margin-top: 32px;
 }
+
+.our-offers-button:hover{
+    border: none;
+background-color: #bbf330;
+}
+
 
 /* Our-favorites */
 
@@ -289,6 +304,10 @@ padding-top: 29px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.our-favorite-image-container:hover{
+    border: 16px solid #bbf330;
 }
 
 /* Reviews */

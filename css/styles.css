@@ -177,6 +177,14 @@ justify-content: space-between;
     bottom: 78px;
     }
 
+.our-offers-image-second{
+    position: absolute;
+    left: 131px;
+    bottom: 51px;
+    max-width: 502px;
+    flex-shrink: 0;
+}
+
 .our-offers-image-container{
     display: flex;
     justify-content: center;

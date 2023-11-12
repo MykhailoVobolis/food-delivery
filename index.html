@@ -203,11 +203,18 @@
             <p class="subscription-text">
               Order now and receive 10% off your first meal with Enjoy Your Favorite Food From Anywhere.
             </p>
+            <form class="subscribe-form" name="Subscribe" autocomplete="off" novalidate>
+              <label>
+                <input class="subscribe-email" type="email" name="user-email" placeholder="Enter your email" required />
+              </label>
+              <button class="subscribe-button" type="submit">Subscribe</button>
+            </form>
           </div>
           <img src="./images/banan.png" alt="banan" width="608" height="266" />
         </div>
       </section>
     </main>
+
     <!-- Footer -->
     <footer class="footer-section">
       <div class="container footer-container">
@@ -240,6 +247,17 @@
           </div>
           <div class="subscribe">
             <p class="title-subscribe-form">Subscribe</p>
+            <form class="footer-email-form" name="Subscribe" autocomplete="off" novalidate>
+              <label class="">
+                <input
+                  class="subscribe-email footer-subscribe-email"
+                  type="email"
+                  name="user-email"
+                  placeholder="Enter your email"
+                  required />
+              </label>
+              <button class="footer-button" type="submit">Subscribe</button>
+            </form>
             <p class="privacy-policy-warning">
               By subscribing you agree to with our <a class="link-privacy-policy" href="">Privacy Policy</a>
             </p>

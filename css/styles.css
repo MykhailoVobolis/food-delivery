@@ -35,7 +35,7 @@ ol{
     list-style-type: none;
 }
 
-img{
+img, svg{
     display: block;
     max-width: 100%;
 }
@@ -231,11 +231,18 @@ padding-top: 29px;
 }
 
 .our-offers-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fefefe;
     border-radius: 50%;
     width: 48px;
     height: 48px;
     margin-bottom: 8px;
+}
+
+.our-offers-icon{
+    fill: #7eb101;
 }
 
 .our-offers-list-title{
@@ -333,7 +340,7 @@ background-color: #bbf330;
 
 .reviews-container{
     padding-left: 16px;
-    padding-right: 88px;
+    padding-right: 120px;
 }
 
 .reviews-list {
@@ -343,8 +350,9 @@ background-color: #bbf330;
 
 .reviews-item {
     background-color: #fefefe;
-    padding: 59.17px 14px 17.33px;
+    padding: 14px 14px;
     border-radius: 0px 30px 30px 30px;
+    width: calc((100% - 139px) / 2);
 }
 
 .reviews-item .user-review{
@@ -366,6 +374,11 @@ background-color: #bbf330;
     font-weight: 400;
     margin-top: 20.4px;
     margin-bottom: 32.65px;
+}
+
+.reviews-icon{
+    fill: #ffe550;
+    margin-bottom: 28px;
 }
 
 .reviews-list-text{

@@ -312,9 +312,7 @@ h1{
 }
 
 .reviews-item {
-    background-color: #fefefe;
     padding: 8px 8px;
-    border-radius: 0px 30px 30px 30px;
 }
 
 .reviews-item .user-review{
@@ -907,5 +905,168 @@ h1 {
     max-width: 620px;
 }
 
+/* !!!!это не правильно!!! */
+.our-offers-list-title-text{
+   width: 288px;
+}
 
+.advantages-list:last-child{
+    background-color: tomato;
+    max-width: 252px;
+}
+
+/* Our-favorites-tablet */
+
+.our-favorites {
+    padding-top: 94px;
+    padding-bottom: 80px;
+}
+
+.our-favorite-image-container {
+    border: 14px solid #ffe550;
+    width: 336px;
+    height: 338px;
+}
+
+.our-favorite-image-container:hover,
+.our-favorite-image-container:focus {
+    border: 14px solid #bbf330;
+}
+
+.our-favorites-title {
+    font-size: 42px;
+}
+
+.our-favorites-text {
+    font-size: 16px;
+}
+
+.our-favorite-item:nth-last-child(-n + 3) {
+    display: flex;
+}
+
+.our-favorite-image{
+    width: 268px;
+    height: 268px;
+}
+
+.our-favorites-list {
+    gap: 32px;
+}
+
+/* Reviews-tablet */
+
+.reviews {
+    padding-top: 80px;
+    padding-bottom: 23px;
+}
+
+.reviews-title {
+    font-size: 42px;
+}
+
+.reviews-text {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.reviews-list {
+    flex-direction: row;
+}
+
+.reviews-item {
+    padding: 12px 12px;
+}
+
+.reviews-list-text {
+    font-size: 18px;
+}
+
+/* Subscription */
+
+.subscription {
+    padding-top: 23px;
+    padding-bottom: 100px;
+}
+
+.subscription-title {
+    font-size: 42px;
+}
+
+.subscription-text {
+    font-size: 16px;
+    margin-bottom: 24px;
+    width: 520px;
+}
+
+.subscribe-form {
+    flex-direction: row;
+    gap: 22px;
+}
+
+.subscribe-email {
+    width: 395px;
+}
+
+.subscribe-image {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.main-subscribe-image{
+    width: 281px;
+    height: 136px;
+}
+
+/* Footer-tablet */
+
+.footer-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../images/tablet/bg-footer-tablet.png);
+    min-width: 768px;
+}
+
+/* Изображение 2х для Footer */
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-devide-pixel-ratio: 2) {
+    .footer-section {
+        background-image: url(../images/tablet/bg-footer-tablet@2x.png)
+    }
+}
+
+.main-navigation-footer {
+    gap: 114px;
+}
+
+.footer-email-form{
+    flex-direction: row;
+    gap: 13px;
+    margin-bottom: 12px;
+}
+
+.privacy-policy-warning {
+    font-size: 12px;
+}
+
+.developer-copiright-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 236px;
+}
+
+.list-developer {
+    gap: 20px;
+}
+
+.link-developer {
+    font-size: 12px;
+}
+
+.copyright {
+    font-size: 12px;
+}
 }

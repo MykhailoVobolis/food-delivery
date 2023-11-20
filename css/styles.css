@@ -808,12 +808,17 @@ screen and (min-devide-pixel-ratio: 2) {
     align-items: center;
     font-size: 14px;
     font-weight: 400;
+    gap: 28px;
 }
 
 .list-navigation:first-child a {
     text-decoration: underline;
     color: #bbf330;
     font-weight: 500;
+}
+
+.main-button {
+    margin-left: 0;
 }
 
 /* Main-content-tablet */
@@ -1063,4 +1068,26 @@ screen and (min-devide-pixel-ratio: 2) {
 .copyright {
     font-size: 12px;
 }
+}
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }

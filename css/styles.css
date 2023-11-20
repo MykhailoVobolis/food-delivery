@@ -905,12 +905,8 @@ h1 {
     max-width: 620px;
 }
 
-.advantages-list{
-   max-width: 288px;
-}
-
-.our-offers-list-title-text{
-   display: inline;
+.our-offers-list-title-second-text{
+    width: 252px;
 }
 
 /* Our-favorites-tablet */

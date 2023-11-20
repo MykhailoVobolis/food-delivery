@@ -905,14 +905,12 @@ h1 {
     max-width: 620px;
 }
 
-/* !!!!это не правильно!!! */
-.our-offers-list-title-text{
-   width: 288px;
-   display: inline;
+.advantages-list{
+   max-width: 288px;
 }
 
-.advantages-list:last-child{
-    max-width: 252px;
+.our-offers-list-title-text{
+   display: inline;
 }
 
 /* Our-favorites-tablet */

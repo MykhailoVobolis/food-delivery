@@ -908,10 +908,10 @@ h1 {
 /* !!!!это не правильно!!! */
 .our-offers-list-title-text{
    width: 288px;
+   display: inline;
 }
 
 .advantages-list:last-child{
-    background-color: tomato;
     max-width: 252px;
 }
 

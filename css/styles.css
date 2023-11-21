@@ -786,7 +786,7 @@ screen and (min-devide-pixel-ratio: 2) {
     padding-right: 32px;
 }
 
-    /* Header-tablet-styles */
+/* Header-tablet-styles */
 
 .mobile-menu-container {
     display: none;
@@ -809,6 +809,7 @@ screen and (min-devide-pixel-ratio: 2) {
     font-size: 14px;
     font-weight: 400;
     gap: 28px;
+
 }
 
 .list-navigation:first-child a {
@@ -966,7 +967,7 @@ h1 {
 
 .reviews-text {
     font-size: 16px;
-    margin-bottom: 32px;
+    margin-bottom: 33px;
 }
 
 .reviews-list {
@@ -981,7 +982,7 @@ h1 {
     font-size: 18px;
 }
 
-/* Subscription */
+/* Subscription-tablet */
 
 .subscription {
     padding-top: 23px;
@@ -1041,7 +1042,7 @@ screen and (min-devide-pixel-ratio: 2) {
     gap: 114px;
 }
 
-.footer-email-form{
+.footer-email-form {
     flex-direction: row;
     gap: 13px;
     margin-bottom: 12px;
@@ -1054,7 +1055,7 @@ screen and (min-devide-pixel-ratio: 2) {
 .developer-copiright-container {
     flex-direction: row;
     align-items: center;
-    gap: 236px;
+    justify-content: space-between;
 }
 
 .list-developer {
@@ -1086,6 +1087,10 @@ screen and (min-devide-pixel-ratio: 2) {
 .hero {
     padding-top: 14px;
     padding-bottom: 69px;
+}
+
+.list-navigation a{
+    color: #2c2c2c;
 }
 
 .hero-container {
@@ -1202,9 +1207,151 @@ h1 {
 
 /* Our-favorites-desktop */
 
+.our-favorites {
+    padding-top: 120px;
+    padding-bottom: 101px;
+}
 
+.our-favorites-text {
+    margin-bottom: 40px;
+}
 
+.our-favorite-image-container {
+    border: 16px solid #ffe550;
+    width: 394px;
+    height: 397px;
+}
 
+.our-favorite-image {
+    width: 315px;
+    height: 315px;
+}
 
+.our-favorite-image-container:hover,
+.our-favorite-image-container:focus {
+    border: 16px solid #bbf330;
+}
 
+/* Reviews-desktop */
+
+.reviews {
+    padding-top: 140px;
+    padding-bottom: 126px;
+    background-color: #ffe550;
+    ;
+}
+
+.reviews-container {
+    padding-left: 16px;
+    padding-right: 120px;
+}
+
+.reviews-list {
+    gap: 139px;
+}
+
+.reviews-item {
+    background-color: #fefefe;
+    padding: 14px 14px;
+    border-radius: 0px 30px 30px 30px;
+    width: calc((100% - 139px) / 2);
+}
+
+.reviews-icon {
+    fill: #ffe550;
+    margin-bottom: 28px;
+}
+
+.reviews-list-text {
+    font-weight: 700;
+    margin-bottom: 44.81px;
+}
+
+/* Subscription-desktop */
+
+.subscription {
+    padding-top: 176px;
+    padding-bottom: 201px;
+}
+
+.subscription-container {
+    flex-direction:row;
+    justify-content: space-between;
+    padding-left: 2px;
+}
+
+.subscription-text-container {
+    padding-top: 46px;
+}
+
+.subscription-title {
+    font-weight: 700;
+    line-height: 1.2;
+    max-width: 656px;
+    margin-bottom: 20px;
+}
+
+.subscription-text {
+    line-height: 1.5;
+    width: 532px;
+}
+
+.subscribe-form {
+    gap: 32px;
+}
+
+.subscribe-image {
+    display: block;
+    margin-bottom: 0;
+}
+
+.main-subscribe-image {
+    width: 608px;
+    height: 266px;
+}
+
+/* Footer-desktop */
+
+.footer-section {
+    background-image: url(../images/bg-footer-desktop.png);
+    max-width: 100%;
+    background-size: 1211px;
+    background-position: 60% 100%;
+    min-width: 1158px;
+}
+
+/* Изображение 2х для Footer */
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-devide-pixel-ratio: 2) {
+    .footer-section {
+        background-image: url(../images/bg-footer-desktop@2x.png)
+    }
+}
+
+.navigation-sudscride {
+    flex-direction: row;
+}
+
+.main-navigation-footer {
+    gap: 143px;
+    margin-bottom: 0;
+}
+
+/* Navigation-menu-footer-desktop */
+
+.navigation-menu-footer a {
+    color: #2c2c2c;
+}
+
+.subscribe {
+    margin-bottom: 80px;
+}
+
+.list-developer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 }
